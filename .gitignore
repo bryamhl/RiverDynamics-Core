@@ -1,0 +1,27 @@
+# Archivos de sistema y PyCharm
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de datos (¡IMPORTANTE!)
+# Bloqueamos excels, shapes y csv para no subir datos pesados o privados
+*.csv
+*.xlsx
+*.xls
+*.shp
+*.shx
+*.dbf
+*.prj
+*.tif
+*.tiff
+*.json
+*.geojson
+
+# Archivos de log o temporales
+*.log
